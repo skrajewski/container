@@ -1,0 +1,18 @@
+{
+    "name": "szykra/container",
+    "description": "Simple IoC Container",
+    "authors": [
+        {
+            "name": "Szymon Krajewski",
+            "email": "szykra@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
