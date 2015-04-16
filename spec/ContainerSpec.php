@@ -51,7 +51,7 @@ class ContainerSpec extends ObjectBehavior
         $this->make('spec\FizzBuzzInterface')->shouldReturnAnInstanceOf('spec\FizzBuzzConcrete');
     }
 
-    function it_should_call_clojure_when_make_abstract()
+    function it_should_call_closure_when_make_abstract()
     {
         $this->bind('spec\FizzBuzzInterface', function() {
             return new FizzBuzzConcrete();
